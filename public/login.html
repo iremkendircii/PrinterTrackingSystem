@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Güvenli Giriş Sistemi</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+
+      .container {
+        background-color: rgba(255, 255, 255, 0.95);
+        border-radius: 15px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+        padding: 40px;
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        z-index: 10;
+      }
+
+      .container::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(
+          45deg,
+          transparent,
+          rgba(255, 255, 255, 0.1),
+          rgba(255, 255, 255, 0.05)
+        );
+        transform: rotate(30deg);
+        z-index: -1;
+      }
+
+      .secure-icon {
+        font-size: 60px;
+        color: #1a2a6c;
+        margin-bottom: 20px;
+        animation: pulse 2s infinite;
+      }
+
+      h1 {
+        color: #1a2a6c;
+        margin-bottom: 15px;
+        font-size: 32px;
+      }
+
+      .subtitle {
+        color: #555;
+        margin-bottom: 30px;
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      .password-hint {
+        background: linear-gradient(to right, #3498db, #2c3e50);
+        color: white;
+        padding: 18px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      }
+
+      .password-hint p {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+      }
+
+      .time-display {
+        font-size: 26px;
+        font-weight: bold;
+        color: #1a2a6c;
+        margin: 25px 0;
+        background: rgba(255, 255, 255, 0.7);
+        padding: 12px;
+        border-radius: 10px;
+        display: inline-block;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .form-group {
+        margin-bottom: 30px;
+        text-align: left;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+        color: #333;
+        font-weight: 600;
+        font-size: 18px;
+      }
+
+      input[type="password"] {
+        width: 100%;
+        padding: 16px;
+        border: 2px solid #ddd;
+        border-radius: 10px;
+        font-size: 18px;
+        transition: all 0.3s;
+      }
+
+      input[type="password"]:focus {
+        border-color: #3498db;
+        outline: none;
+        box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.3);
+        transform: scale(1.02);
+      }
+
+      button {
+        background: linear-gradient(to right, #1a2a6c, #b21f1f);
+        color: white;
+        border: none;
+        padding: 16px 24px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 100%;
+        transition: all 0.3s;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        position: relative;
+        overflow: hidden;
+      }
+
+      button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      button:active {
+        transform: translateY(1px);
+      }
+
+      button::after {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: rgba(255, 255, 255, 0.1);
+        transform: rotate(30deg);
+        transition: all 0.5s;
+      }
+
+      button:hover::after {
+        transform: rotate(30deg) translate(10%, 10%);
+      }
+
+      .error-message {
+        color: #e74c3c;
+        margin-top: 20px;
+        font-weight: 600;
+        min-height: 30px;
+        font-size: 18px;
+      }
+
+      .footer {
+        margin-top: 30px;
+        color: #666;
+        font-size: 16px;
+        padding-top: 15px;
+        border-top: 1px solid #eee;
+      }
+
+      .clock-icon {
+        font-size: 24px;
+        margin-right: 10px;
+        vertical-align: middle;
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      @keyframes shake {
+        0%,
+        100% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(-10px);
+        }
+        75% {
+          transform: translateX(10px);
+        }
+      }
+
+      .shake {
+        animation: shake 0.5s;
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          padding: 30px 20px;
+          margin: 0 15px;
+        }
+
+        h1 {
+          font-size: 26px;
+        }
+
+        .password-hint p {
+          font-size: 18px;
+        }
+
+        .time-display {
+          font-size: 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="secure-icon">🔒</div>
+      <h1>GÜVENLİ ERİŞİM SİSTEMİ</h1>
+      <p class="subtitle">
+        Yazıcı Toner Takip Sistemi <br />
+        sayfasına erişmek için geçerli şifreyi giriniz
+      </p>
+
+      <div class="time-display">
+        <span class="clock-icon">⏰</span>
+        <span id="current-time"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Şifreyi Girin:</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Şifreyi buraya girin..."
+          autocomplete="off"
+        />
+      </div>
+
+      <button id="login-btn">GİRİŞ YAP</button>
+
+      <div id="error-message" class="error-message"></div>
+
+      <div class="footer">
+        <a
+          href="https://www.linkedin.com/in/emekhsıldır/"
+          style="text-decoration: none; color: inherit"
+          ><p>© 2025 Güvenli Erişim Sistemi | Tüm hakları saklıdır</p></a
+        >
+      </div>
+    </div>
+
+    <script>
+      // Güncel saati gösterme
+      function updateTime() {
+        const now = new Date();
+        const hours = now.getHours().toString().padStart(2, "0");
+        const minutes = now.getMinutes().toString().padStart(2, "0");
+        const seconds = now.getSeconds().toString().padStart(2, "0");
+        document.getElementById(
+          "current-time"
+        ).textContent = `${hours}:${minutes}:${seconds}`;
+      }
+
+      // Sayfa yüklendiğinde ve her saniyede bir saati güncelle
+      updateTime();
+      setInterval(updateTime, 1000);
+
+      // Giriş butonu olay dinleyicisi
+      document
+        .getElementById("login-btn")
+        .addEventListener("click", function () {
+          const passwordInput = document.getElementById("password").value;
+          const errorMessage = document.getElementById("error-message");
+
+          // Güncel dakikayı al
+          const now = new Date();
+          const currentMinute = now.getMinutes();
+
+          // Doğru şifreyi oluştur ("avcılar" + dakika)
+          const correctPassword = "avcılar" + currentMinute;
+
+          // Şifreyi kontrol et
+          if (passwordInput === correctPassword) {
+            // Şifre doğru ise index.html sayfasına yönlendir
+            // Oturum işareti koy (bu oturum boyunca geçerli)
+            sessionStorage.setItem("authenticated", "true");
+            window.location.href = "index.html";
+          } else {
+            // Hata mesajı göster
+            errorMessage.textContent =
+              "Hatalı şifre! Lütfen şifreyi kontrol edip tekrar deneyin.";
+
+            // Input alanını sıfırla ve odakla
+            document.getElementById("password").value = "";
+            document.getElementById("password").focus();
+
+            // Animasyonlu uyarı efekti
+            errorMessage.style.color = "#e74c3c";
+            errorMessage.classList.add("shake");
+            setTimeout(() => {
+              errorMessage.classList.remove("shake");
+            }, 500);
+          }
+        });
+
+      // Enter tuşu ile de giriş yapabilme
+      document
+        .getElementById("password")
+        .addEventListener("keyup", function (event) {
+          if (event.key === "Enter") {
+            document.getElementById("login-btn").click();
+          }
+        });
+
+      // Sayfa yüklendiğinde şifre kutusuna odaklan
+      window.onload = function () {
+        document.getElementById("password").focus();
+      };
+    </script>
+  </body>
+</html>

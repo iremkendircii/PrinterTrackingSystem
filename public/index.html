@@ -16,6 +16,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js"></script>
     <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
 
+    <script>
+      // Sayfa yüklendiğinde kimlik doğrulama kontrolü
+      window.addEventListener("DOMContentLoaded", function () {
+        // sessionStorage'da 'authenticated' anahtarı yoksa veya değeri 'true' değilse
+        if (sessionStorage.getItem("authenticated") !== "true") {
+          // login sayfasına yönlendir
+          window.location.href = "login.html";
+        }
+      });
+    </script>
+
     <style>
       :root {
         --primary-color: #2c3e50;
@@ -155,7 +166,8 @@
         display: block;
       }
 
-      th,td {
+      th,
+      td {
         padding: 5px 5px;
         text-align: center;
         border-bottom: 1px solid #ddd;
@@ -565,7 +577,11 @@
           <button class="btn-refresh" onclick="refreshData()">
             <i class="fas fa-sync-alt"></i> Yenile
           </button>
-          <button class="btn-notifications" onclick="toggleNotifications()" id="notificationBtn">
+          <button
+            class="btn-notifications"
+            onclick="toggleNotifications()"
+            id="notificationBtn"
+          >
             <i class="fas fa-bell"></i> Bildirimler
           </button>
         </div>
@@ -607,7 +623,7 @@
       <div class="stats-container sticky-table" id="statsContainer"></div>
 
       <!-- İSTATiSTİK TABLOSU -->
-      <table id="printerTable" >
+      <table id="printerTable">
         <thead class="sticky-thead">
           <tr>
             <th onclick="sortTable(0)">Konum</th>
@@ -752,13 +768,14 @@
     </script>
     <script>
       // Bildirim durumu
-      let notificationsEnabled = localStorage.getItem('notificationsEnabled') !== 'false';
-      
+      let notificationsEnabled =
+        localStorage.getItem("notificationsEnabled") !== "false";
+
       // Socket.io bağlantısı
       const socket = io();
 
       // Kritik uyarı bildirimleri
-      socket.on('criticalAlert', (data) => {
+      socket.on("criticalAlert", (data) => {
         if (notificationsEnabled) {
           showCriticalNotification(data.message, data.items);
         }
@@ -767,29 +784,29 @@
       // Bildirimleri aç/kapat
       function toggleNotifications() {
         notificationsEnabled = !notificationsEnabled;
-        localStorage.setItem('notificationsEnabled', notificationsEnabled);
-        
-        const btn = document.getElementById('notificationBtn');
+        localStorage.setItem("notificationsEnabled", notificationsEnabled);
+
+        const btn = document.getElementById("notificationBtn");
         if (notificationsEnabled) {
           btn.innerHTML = '<i class="fas fa-bell"></i> Bildirimler';
-          btn.classList.remove('btn-notifications-off');
-          showToast('Bildirimler açıldı', 'success');
+          btn.classList.remove("btn-notifications-off");
+          showToast("Bildirimler açıldı", "success");
         } else {
           btn.innerHTML = '<i class="fas fa-bell-slash"></i> Bildirimler';
-          btn.classList.add('btn-notifications-off');
-          showToast('Bildirimler kapatıldı', 'info');
+          btn.classList.add("btn-notifications-off");
+          showToast("Bildirimler kapatıldı", "info");
         }
       }
 
       // Sayfa yüklendiğinde buton durumunu ayarla
       function updateNotificationButton() {
-        const btn = document.getElementById('notificationBtn');
+        const btn = document.getElementById("notificationBtn");
         if (notificationsEnabled) {
           btn.innerHTML = '<i class="fas fa-bell"></i> Bildirimler';
-          btn.classList.remove('btn-notifications-off');
+          btn.classList.remove("btn-notifications-off");
         } else {
           btn.innerHTML = '<i class="fas fa-bell-slash"></i> Bildirimler';
-          btn.classList.add('btn-notifications-off');
+          btn.classList.add("btn-notifications-off");
         }
       }
 
@@ -798,34 +815,36 @@
         // Tarayıcı bildirimi
         if (Notification.permission === "granted") {
           const notification = new Notification("Yazıcı Uyarısı", {
-            body: `${message}\n${items.join('\n')}`,
+            body: `${message}\n${items.join("\n")}`,
             icon: "/favicon.ico",
-            badge: "/favicon.ico"
+            badge: "/favicon.ico",
           });
-          
-          notification.onclick = function() {
+
+          notification.onclick = function () {
             window.focus();
             notification.close();
           };
         }
 
         // Toast bildirimi
-        showToast(`${message}\n${items.join('\n')}`, "error");
-        
+        showToast(`${message}\n${items.join("\n")}`, "error");
+
         // Ses uyarısı
         playAlertSound();
       }
 
       // Ses uyarısı çal
       function playAlertSound() {
-        const audio = new Audio('data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwhBSuBzvLZiTYIG2m98OScTgwOUarm7blmGgU7k9n1unEiBC13yO/eizEIHWq+8+OWT');
-        audio.play().catch(e => console.log('Ses çalınamadı:', e));
+        const audio = new Audio(
+          "data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwhBSuBzvLZiTYIG2m98OScTgwOUarm7blmGgU7k9n1unEiBC13yO/eizEIHWq+8+OWT"
+        );
+        audio.play().catch((e) => console.log("Ses çalınamadı:", e));
       }
 
       // Bildirim izni iste
       function requestNotificationPermission() {
         if (Notification.permission === "default") {
-          Notification.requestPermission().then(permission => {
+          Notification.requestPermission().then((permission) => {
             if (permission === "granted") {
               console.log("Bildirim izni verildi");
             }
@@ -833,14 +852,14 @@
         }
       }
 
-              document.addEventListener("DOMContentLoaded", async function () {
-          // Bildirim izni iste
-          requestNotificationPermission();
-          
-          // Bildirim buton durumunu ayarla
-          updateNotificationButton();
-          
-          await fetchPrinterData();
+      document.addEventListener("DOMContentLoaded", async function () {
+        // Bildirim izni iste
+        requestNotificationPermission();
+
+        // Bildirim buton durumunu ayarla
+        updateNotificationButton();
+
+        await fetchPrinterData();
 
         document.querySelector(".close").addEventListener("click", function () {
           document.getElementById("detailsModal").style.display = "none";
@@ -899,7 +918,7 @@
           if (printer.cyan && printer.cyan < 10) criticalTonerCount++;
           if (printer.magenta && printer.magenta < 10) criticalTonerCount++;
           if (printer.yellow && printer.yellow < 10) criticalTonerCount++;
-          
+
           // Offline yazıcıları say (lastModified null olanlar)
           if (!printer.lastModified) {
             offlineCount++;
@@ -975,18 +994,18 @@
           fetch(`/delete-printer/${ip}`, {
             method: "DELETE",
           })
-                      .then((response) => {
-            if (response.ok) {
-              showToast("Yazıcı başarıyla silindi!", "success");
-              // Tabloyu ve istatistikleri yenile
-              fetchPrinterData().then(() => {
-                // İstatistikleri güncelle
-                updateStatsFromData(window.currentPrinterData || []);
-              });
-            } else {
-              showToast("Yazıcı silinirken hata oluştu!", "error");
-            }
-          })
+            .then((response) => {
+              if (response.ok) {
+                showToast("Yazıcı başarıyla silindi!", "success");
+                // Tabloyu ve istatistikleri yenile
+                fetchPrinterData().then(() => {
+                  // İstatistikleri güncelle
+                  updateStatsFromData(window.currentPrinterData || []);
+                });
+              } else {
+                showToast("Yazıcı silinirken hata oluştu!", "error");
+              }
+            })
             .catch((error) => {
               console.error("Silme hatası:", error);
               showToast("Yazıcı silinirken hata oluştu!", "error");
@@ -1081,11 +1100,15 @@
                 </div>
                 <div class="stat-card critical-card" onclick="showCriticalPrinters()" style="cursor: pointer;">
                     <div class="stat-label">Kritik Toner Sayısı</div>
-                    <div class="stat-value" style="color: var(--danger-color);">${stats.criticalCount}</div>
+                    <div class="stat-value" style="color: var(--danger-color);">${
+                      stats.criticalCount
+                    }</div>
                 </div>
                 <div class="stat-card offline-card" onclick="showOfflinePrinters()" style="cursor: pointer;">
                     <div class="stat-label">Offline Yazıcı Sayısı</div>
-                    <div class="stat-value" style="color: #95a5a6;">${stats.offlineCount || 0}</div>
+                    <div class="stat-value" style="color: #95a5a6;">${
+                      stats.offlineCount || 0
+                    }</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-label">Son Güncelleme</div>
@@ -1117,9 +1140,6 @@
           // Backend'den gelen kurum bilgisini kullan
           const unitName = printer.unit || "X";
 
-          
-
-
           row.innerHTML = `
       <td>${unitName}</td>
       <td><a href="http://${printer.ip}" target="_blank" class="ip-link">${
@@ -1146,8 +1166,8 @@
           })}</td>
       
                     <td class="toner-yellow" data-value="${
-            printer.yellow ?? ""
-          }">${createTonerCell({
+                      printer.yellow ?? ""
+                    }">${createTonerCell({
             percent: printer.yellow,
             status: getStatusLabel(printer.yellow),
           })}</td>
@@ -1155,16 +1175,22 @@
       <td>${printer.serialNo || "X"}</td>
 
               <td class="action-buttons">
-          <button class="action-btn" onclick="showDetails('${printer.ip}', 'maintenance')">
+          <button class="action-btn" onclick="showDetails('${
+            printer.ip
+          }', 'maintenance')">
             <i class="fas fa-tools"></i> Bakım
           </button>
-          <button class="action-btn" onclick="showDetails('${printer.ip}', 'photoconductor')">
+          <button class="action-btn" onclick="showDetails('${
+            printer.ip
+          }', 'photoconductor')">
             <i class="fas fa-drum"></i> Fotokondüktör
           </button>
           <button class="action-btn" onclick="showConfigure('${printer.ip}')">
             <i class="fas fa-network-wired"></i>Config
           </button>
-          <button class="action-btn delete-btn" onclick="deletePrinter('${printer.ip}')" title="Yazıcıyı Sil">
+          <button class="action-btn delete-btn" onclick="deletePrinter('${
+            printer.ip
+          }')" title="Yazıcıyı Sil">
             <i class="fas fa-trash"></i>
           </button>
         </td>
@@ -1289,9 +1315,10 @@
             if (cells.length >= 7) {
               // Son görülme sütununu kontrol et (3. sütun)
               const lastSeenCell = cells[2];
-              const isOffline = lastSeenCell.textContent === "X" || 
-                               lastSeenCell.textContent === "Bilinmiyor" ||
-                               lastSeenCell.textContent === "";
+              const isOffline =
+                lastSeenCell.textContent === "X" ||
+                lastSeenCell.textContent === "Bilinmiyor" ||
+                lastSeenCell.textContent === "";
 
               row.style.display = isOffline ? "" : "none";
             }
@@ -1319,9 +1346,7 @@
           window.open(configUrl, "_blank", "noopener,noreferrer");
         } catch (e) {
           console.error("Geçersiz URL:", e);
-          alert(
-            "Geçersiz yazıcı adresi veya yapılandırma sayfası bulunamadı!"
-          );
+          alert("Geçersiz yazıcı adresi veya yapılandırma sayfası bulunamadı!");
         }
       }
 
@@ -1398,48 +1423,49 @@
               content.innerHTML = `<p style="text-align: center; color: red;">${data.error}</p>`;
             } else {
               content.innerHTML = Object.entries(data)
-                .map(
-                  ([itemName, info]) => {
-                    let icon = "🔧"; // Varsayılan ikon
-                    let color = "#3498db"; // Varsayılan renk
-                    
-                    // İkon ve renk belirleme
-                    if (info.type === "developer") {
-                      icon = "⚫";
-                      color = "#2c3e50";
-                    } else if (info.type === "waste") {
-                      icon = "🗑️";
-                      color = "#95a5a6";
-                    } else if (info.type === "kit") {
-                      icon = "🔧";
-                      color = "#e67e22";
-                    }
-                    
-                    return `
+                .map(([itemName, info]) => {
+                  let icon = "🔧"; // Varsayılan ikon
+                  let color = "#3498db"; // Varsayılan renk
+
+                  // İkon ve renk belirleme
+                  if (info.type === "developer") {
+                    icon = "⚫";
+                    color = "#2c3e50";
+                  } else if (info.type === "waste") {
+                    icon = "🗑️";
+                    color = "#95a5a6";
+                  } else if (info.type === "kit") {
+                    icon = "🔧";
+                    color = "#e67e22";
+                  }
+
+                  return `
                             <div class="detail-item">
                                 <div class="detail-title">
                                     <span style="font-size: 18px; margin-right: 8px;">${icon}</span>
                                     ${itemName}
-                                    ${info.serialNumber && info.serialNumber !== "Bilinmiyor" ? 
-                                      `<br><small style="color: #7f8c8d;">Seri No: ${info.serialNumber}</small>` : 
-                                      ''}
+                                    ${
+                                      info.serialNumber &&
+                                      info.serialNumber !== "Bilinmiyor"
+                                        ? `<br><small style="color: #7f8c8d;">Seri No: ${info.serialNumber}</small>`
+                                        : ""
+                                    }
                                 </div>
                                 <div class="progress-container">
                                     <div class="progress-bar" style="width: ${
                                       info.percent
                                     }%; background-color: ${getStatusColor(
-                      info.percent
-                    )};">
+                    info.percent
+                  )};">
                                         ${info.percent}%
                                     </div>
                                 </div>
                                 <p>Durum: <span class="status-badge status-${info.status.toLowerCase()}">${
-                      info.status
-                    }</span></p>
+                    info.status
+                  }</span></p>
                             </div>
                         `;
-                  }
-                )
+                })
                 .join("");
             }
           })
