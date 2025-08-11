@@ -1,0 +1,3207 @@
+{
+  "html": "",
+  "nodes": {
+    "guestSession": 0,
+    "inputs": {
+      "Manual Envelope": {
+        "capacity": 1,
+        "emptySensing": 1,
+        "engineDeviceType": 5,
+        "faceUp": 0,
+        "feedInfo": {
+          "feedType": 2,
+          "trayMediaHeightMax": 4800,
+          "trayMediaHeightMin": 385,
+          "trayMediaWidthMax": 1260,
+          "trayMediaWidthMin": 350
+        },
+        "feedOrientation": "long-edge",
+        "inserted": 1,
+        "isSizeSenseEnabled": 0,
+        "isStandard": 1,
+        "levelInfo": {
+          "currentLevel": 0,
+          "earlyWarningLevel": -1,
+          "maxLevel": 100,
+          "minLevel": 0,
+          "numLevels": 2
+        },
+        "name": "Manual Envelope",
+        "npaId": 129,
+        "optionId": "Manual Envelope",
+        "paperSizeNpaId": 61,
+        "paperTypeNpaId": 1875,
+        "revision": "",
+        "size": 88,
+        "sizeSensing": 0,
+        "sizeString": "DL Zarf",
+        "supportedSizes": [
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          }
+        ],
+        "supportedTypes": [
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          }
+        ],
+        "text": "Elle Zarf",
+        "textEnum": 67862,
+        "type": 8,
+        "typeString": "Zarf"
+      },
+      "Manual Paper": {
+        "capacity": 1,
+        "emptySensing": 1,
+        "engineDeviceType": 5,
+        "faceUp": 0,
+        "feedInfo": {
+          "feedType": 2,
+          "trayMediaHeightMax": 4800,
+          "trayMediaHeightMin": 385,
+          "trayMediaWidthMax": 1260,
+          "trayMediaWidthMin": 350
+        },
+        "feedOrientation": "long-edge",
+        "inserted": 1,
+        "isSizeSenseEnabled": 0,
+        "isStandard": 1,
+        "levelInfo": {
+          "currentLevel": 0,
+          "earlyWarningLevel": -1,
+          "maxLevel": 100,
+          "minLevel": 0,
+          "numLevels": 2
+        },
+        "name": "Manual Paper",
+        "npaId": 128,
+        "optionId": "Manual Paper",
+        "paperSizeNpaId": 51,
+        "paperTypeNpaId": 54,
+        "revision": "",
+        "size": 22,
+        "sizeSensing": 0,
+        "sizeString": "A4",
+        "supportedSizes": [
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          }
+        ],
+        "supportedTypes": [
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          }
+        ],
+        "text": "Elle Kağıt",
+        "textEnum": 67156,
+        "type": 16,
+        "typeString": "Ağır Kağıt"
+      },
+      "MP Tray": {
+        "capacity": 150,
+        "emptySensing": 1,
+        "engineDeviceType": 1,
+        "faceUp": 0,
+        "feedInfo": {
+          "feedType": 1,
+          "trayMediaHeightMax": 4800,
+          "trayMediaHeightMin": 385,
+          "trayMediaWidthMax": 1260,
+          "trayMediaWidthMin": 350
+        },
+        "feedOrientation": "long-edge",
+        "inserted": 1,
+        "isSizeSenseEnabled": 0,
+        "isStandard": 1,
+        "levelInfo": {
+          "currentLevel": 0,
+          "earlyWarningLevel": -1,
+          "maxLevel": 100,
+          "minLevel": 0,
+          "numLevels": 2
+        },
+        "name": "MP Tray",
+        "npaId": 131,
+        "optionId": "MP Tray",
+        "paperSizeNpaId": 1101,
+        "paperTypeNpaId": 1102,
+        "revision": "",
+        "size": 23,
+        "sizeSensing": 0,
+        "sizeString": "A5",
+        "supportedSizes": [
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          }
+        ],
+        "supportedTypes": [
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          }
+        ],
+        "text": "Çok Amaçlı Besleyici",
+        "textEnum": 65635,
+        "type": 3,
+        "typeString": "Karton"
+      },
+      "Tray 1": {
+        "capacity": 500,
+        "emptySensing": 1,
+        "engineDeviceType": 2,
+        "faceUp": 1,
+        "feedInfo": {
+          "feedType": 1,
+          "trayMediaHeightMax": 1700,
+          "trayMediaHeightMin": 716,
+          "trayMediaWidthMax": 1170,
+          "trayMediaWidthMin": 550
+        },
+        "feedOrientation": "short-edge",
+        "inserted": 1,
+        "isSizeSenseEnabled": 0,
+        "isStandard": 1,
+        "levelInfo": {
+          "currentLevel": 100,
+          "earlyWarningLevel": 24,
+          "maxLevel": 100,
+          "minLevel": 0,
+          "numLevels": 3
+        },
+        "name": "Tray 1",
+        "npaId": 1,
+        "optionId": "Tray 1",
+        "paperSizeNpaId": 49,
+        "paperTypeNpaId": 52,
+        "revision": "",
+        "size": 22,
+        "sizeSensing": 1,
+        "sizeString": "A4",
+        "supportedSizes": [
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          }
+        ],
+        "supportedTypes": [
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          }
+        ],
+        "text": "Tepsi 1",
+        "textEnum": 65633,
+        "type": 0,
+        "typeString": "Düz Kağıt"
+      },
+      "Tray 2": {
+        "capacity": 500,
+        "emptySensing": 1,
+        "engineDeviceType": 2,
+        "faceUp": 1,
+        "feedInfo": {
+          "feedType": 1,
+          "trayMediaHeightMax": 1800,
+          "trayMediaHeightMin": 716,
+          "trayMediaWidthMax": 1260,
+          "trayMediaWidthMin": 550
+        },
+        "feedOrientation": "short-edge",
+        "inserted": 1,
+        "isSizeSenseEnabled": 0,
+        "isStandard": 1,
+        "levelInfo": {
+          "currentLevel": 24,
+          "earlyWarningLevel": 24,
+          "maxLevel": 100,
+          "minLevel": 0,
+          "numLevels": 3
+        },
+        "name": "Tray 2",
+        "npaId": 2,
+        "optionId": "Tray 2",
+        "paperSizeNpaId": 50,
+        "paperTypeNpaId": 53,
+        "revision": "",
+        "size": 21,
+        "sizeSensing": 1,
+        "sizeString": "A3",
+        "supportedSizes": [
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": -1
+          },
+          {
+            "feedOrientation": "both",
+            "id": -1
+          }
+        ],
+        "supportedTypes": [
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          }
+        ],
+        "text": "Tepsi 2",
+        "textEnum": 65579,
+        "type": 129,
+        "typeString": "Özel Tür 2"
+      }
+    },
+    "nodes": {
+      "DeviceFirmwareLevel": {
+        "display": "TextDisplay",
+        "info": "base",
+        "name": "DeviceFirmwareLevel",
+        "text": {
+          "id": -1,
+          "text": "CXTMH.073.023"
+        },
+        "title": {
+          "id": "TXT_FIRMWARE_LEVEL",
+          "textId": 72908,
+          "translated": "Firmware Level"
+        },
+        "type": "DeviceInfo"
+      },
+      "DeviceSpeed": {
+        "display": "TextDisplay",
+        "info": "speed",
+        "name": "DeviceSpeed",
+        "text": {
+          "id": -1,
+          "text": "Up to 35 pages/minute"
+        },
+        "title": {
+          "id": "TXT_DEVICE_SPEED",
+          "textId": 72907,
+          "translated": "Device Speed"
+        },
+        "type": "DeviceInfo"
+      },
+      "DeviceType": {
+        "display": "TextDisplay",
+        "info": "type",
+        "name": "DeviceType",
+        "text": {
+          "id": 65938,
+          "text": "Color"
+        },
+        "title": {
+          "id": "TXT_DEVICE_TYPE",
+          "textId": 66242,
+          "translated": "Device Type"
+        },
+        "type": "DeviceInfo"
+      },
+      "FuserSuppliesStatus": {
+        "children": [],
+        "display": "Supplies",
+        "name": "FuserSuppliesStatus",
+        "supplyType": 5,
+        "type": "Node"
+      },
+      "InputsStatus": {
+        "children": [],
+        "display": "InputsStatus",
+        "name": "InputsStatus",
+        "type": "Node"
+      },
+      "InputTrayStatus": {
+        "children": [
+          "InputsStatus"
+        ],
+        "display": "Content",
+        "name": "InputTrayStatus",
+        "type": "InputsContainer"
+      },
+      "IrPanel": {
+        "children": [
+          "Irs"
+        ],
+        "display": "Panel",
+        "name": "IrPanel",
+        "title": {
+          "id": "TXT_MESSAGES",
+          "textId": 72888,
+          "translated": "Messages"
+        },
+        "type": "Container"
+      },
+      "Irs": {
+        "display": "IRList",
+        "name": "Irs",
+        "type": "Node"
+      },
+      "NLRP": {
+        "display": "MessageNode",
+        "message": "",
+        "name": "NLRP",
+        "type": "NLRPMessage"
+      },
+      "OtherSuppliesStatus": {
+        "children": [],
+        "display": "Supplies",
+        "name": "OtherSuppliesStatus",
+        "supplyType": 6,
+        "type": "Node"
+      },
+      "OutputBins": {
+        "children": [
+          "OutputBinsStatus"
+        ],
+        "display": "Content",
+        "name": "OutputBins",
+        "type": "OutputBinsContainer"
+      },
+      "OutputBinsStatus": {
+        "children": [],
+        "display": "OutputBinsStatus",
+        "name": "OutputBinsStatus",
+        "type": "Node"
+      },
+      "ParkedJobs": {
+        "children": [
+          "ParkedJobsList"
+        ],
+        "display": "Panel",
+        "hideshows": [
+          {
+            "condition": "HAS_DISK",
+            "runtime": 1
+          }
+        ],
+        "name": "ParkedJobs",
+        "title": {
+          "id": "TXT_DEVICE_JOBS_NEEDING_SUPPLIES",
+          "textId": 70363,
+          "translated": "Jobs Needing Supplies"
+        },
+        "type": "Container"
+      },
+      "ParkedJobsList": {
+        "display": "BasicTable",
+        "emptyText": {
+          "id": "TXT_EMPTY_QUEUE"
+        },
+        "headers": [
+          {
+            "field": "jobType",
+            "id": "TXT_JOB_TYPE"
+          },
+          {
+            "field": "missingResource",
+            "id": "TXT_STATUS"
+          }
+        ],
+        "name": "ParkedJobsList",
+        "paging": 0,
+        "readonly": 1,
+        "setting": "PARKEDJOBS_LIST",
+        "type": "ParkedJobsList"
+      },
+      "PCDrumStatus": {
+        "children": [],
+        "display": "Supplies",
+        "name": "PCDrumStatus",
+        "supplyType": 4,
+        "type": "Node"
+      },
+      "Printer": {
+        "children": [
+          "DeviceType",
+          "DeviceSpeed",
+          "DeviceFirmwareLevel",
+          "InputTrayStatus",
+          "OutputBins"
+        ],
+        "display": "Content",
+        "name": "Printer",
+        "title": {
+          "id": "TXT_PRINTER_WEB_PAGE_HEADER",
+          "textId": 67399,
+          "translated": "Printer"
+        },
+        "type": "Container"
+      },
+      "Status": {
+        "children": [
+          "IrPanel",
+          "ParkedJobs",
+          "Supplies",
+          "Printer"
+        ],
+        "display": "Page",
+        "name": "Status",
+        "title": {
+          "id": "TXT_STATUS",
+          "textId": 67964,
+          "translated": "Status"
+        },
+        "type": "Container"
+      },
+      "Supplies": {
+        "children": [
+          "NLRP",
+          "TonerSupplies",
+          "PCDrumStatus",
+          "FuserSuppliesStatus",
+          "OtherSuppliesStatus",
+          "ScanSupplies"
+        ],
+        "display": "Content",
+        "name": "Supplies",
+        "title": {
+          "id": "TXT_SUPPLIES",
+          "textId": 67586,
+          "translated": "Supplies"
+        },
+        "type": "SuppliesContainer"
+      },
+      "TonerSupplies": {
+        "children": [],
+        "display": "Supplies",
+        "name": "TonerSupplies",
+        "supplyType": 2,
+        "type": "Node"
+      }
+    },
+    "outputs": {
+      "Standard Bin": {
+        "binName": "Standard Bin",
+        "capacity": 500,
+        "capacityUnits": "Sheets",
+        "engineDeviceType": 15,
+        "features": {
+          "auxilaryPowerSupplySupport": 0,
+          "binLockable": 0,
+          "earlyWarningLevel": 1,
+          "emptySensing": 0,
+          "levelSensing": 0,
+          "mailboxBin": 0,
+          "outputBinLighting": 0,
+          "OutputFaceDown": 0,
+          "OutputFaceUp": 0,
+          "outputFullDetect": 0,
+          "StaplePrimingBin": 0
+        },
+        "finishingOptions": {
+          "binPunchSupport": 0,
+          "dualLeftStapleSupport": 0,
+          "dualStapleSupport": 0,
+          "dualTopStapleSupport": 0,
+          "foldingSupport": 0,
+          "holePunchModesSupported": 0,
+          "offsetSupport": 0,
+          "punchAcrossPaperPath": 0,
+          "punchAlongPaperPath": 0,
+          "punchSupport": 0,
+          "saddleStaplingSupport": 0,
+          "staplerHoming": 0,
+          "staplingSupport": 0,
+          "topRightStapleSupport": 0
+        },
+        "isStandard": 1,
+        "levelInfo": {
+          "currentLevel": 0,
+          "earlyWarningLevel": 90,
+          "maxLevel": 100,
+          "minLevel": 0,
+          "numLevels": 3
+        },
+        "name": "Standard Bin",
+        "npaId": 1,
+        "optionId": "Standard Bin",
+        "outInfo": {
+          "binFoldHeightMax": 14400,
+          "binFoldHeightMin": 1157,
+          "binFoldWidthMax": 3780,
+          "binFoldWidthMin": 1050,
+          "binMediaHeightMax": 14400,
+          "binMediaHeightMin": 1157,
+          "binMediaWidthMax": 3780,
+          "binMediaWidthMin": 1050,
+          "binOffsetHeightMax": 14400,
+          "binOffsetHeightMin": 1157,
+          "binOffsetWidthMax": 3780,
+          "binOffsetWidthMin": 1050,
+          "binStapleHeightMax": 14400,
+          "binStapleHeightMin": 1157,
+          "binStapleWidthMax": 3780,
+          "binStapleWidthMin": 1050
+        },
+        "revision": "",
+        "supportedSizes": [
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 1,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 116,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 117,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 128,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 129,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 130,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 151,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 2,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 21,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 22,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 23,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 230,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 231,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 232,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 24,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 254,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 255,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 38,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 7,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 83,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 84,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 88,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 9,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0
+          }
+        ],
+        "supportedTypes": [
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 0,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 1,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 10,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 128,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 129,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 130,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 131,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 132,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 133,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 14,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 15,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 16,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 17,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 18,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 2,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 20,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 23,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 3,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 4,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 5,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 6,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 7,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 8,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0
+          }
+        ],
+        "textEnum": 67062,
+        "userDefinedNameId": 1900
+      }
+    },
+    "rootNode": "Status",
+    "schedules": {},
+    "settings": {
+      "PARKEDJOBS_LIST": {
+        "data": [],
+        "headers": [
+          {
+            "field": "jobType",
+            "id": "TXT_JOB_TYPE"
+          },
+          {
+            "field": "missingResource",
+            "id": "TXT_STATUS"
+          }
+        ],
+        "id": "PARKEDJOBS_LIST"
+      }
+    },
+    "status": {},
+    "supplies": {
+      "200K HCF Maintenance Kit": {
+        "capacity": 100,
+        "cartridgeType": 0,
+        "color": "Black",
+        "configResettable": 0,
+        "curlevel": 100,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "",
+        "displayPagesRemaining": 0,
+        "gaugeType": 0,
+        "genuineStatTxt": 65536,
+        "hardwareType": -1,
+        "hasMemoryChip": 0,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 6072,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 5,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 200000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 42,
+        "pagesRemaining": -1,
+        "partNumber": "",
+        "percentFull": 100,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "LEX2aF0",
+        "Statuses": [],
+        "supplyName": "200K HCF Maintenance Kit",
+        "text": "200K HCF Bakım Kiti",
+        "textEnum": 75345,
+        "type": 6,
+        "UserConfig": []
+      },
+      "200K MPF Maintenance Kit": {
+        "capacity": 100,
+        "cartridgeType": 0,
+        "color": "Black",
+        "configResettable": 0,
+        "curlevel": 100,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "",
+        "displayPagesRemaining": 0,
+        "gaugeType": 0,
+        "genuineStatTxt": 65536,
+        "hardwareType": -1,
+        "hasMemoryChip": 0,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 6063,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 5,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 200000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 41,
+        "pagesRemaining": -1,
+        "partNumber": "",
+        "percentFull": 100,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "LEX29F0",
+        "Statuses": [],
+        "supplyName": "200K MPF Maintenance Kit",
+        "text": "200K MPF Bakım Kiti",
+        "textEnum": 75343,
+        "type": 6,
+        "UserConfig": []
+      },
+      "300K Maintenance Kit": {
+        "capacity": 100,
+        "cartridgeType": 0,
+        "color": "Black",
+        "configResettable": 1,
+        "curlevel": 96,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "",
+        "displayPagesRemaining": 0,
+        "gaugeType": 1,
+        "genuineStatTxt": 65536,
+        "hardwareType": -1,
+        "hasMemoryChip": 0,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 4801,
+            "display_text": 68800,
+            "ir_expected": 0,
+            "levelID": 4805,
+            "npa_alert_code": 55,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 5,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 4802,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 41,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 300000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 38,
+        "pagesRemaining": -1,
+        "partNumber": "",
+        "percentFull": 96,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "LEX26F0",
+        "Statuses": [],
+        "supplyName": "300K Maintenance Kit",
+        "text": "300K Bakım Kiti",
+        "textEnum": 75341,
+        "type": 6,
+        "UserConfig": []
+      },
+      "Black Developer": {
+        "capacity": 100,
+        "cartridgeType": 0,
+        "color": "Black",
+        "configResettable": 0,
+        "curlevel": 98,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "",
+        "displayPagesRemaining": 0,
+        "gaugeType": 1,
+        "genuineStatTxt": 72594,
+        "hardwareType": -1,
+        "hasMemoryChip": 0,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 4767,
+            "display_text": 66812,
+            "ir_expected": 0,
+            "levelID": 4772,
+            "npa_alert_code": 49,
+            "supply_key": 2,
+            "supply_level_on": 1,
+            "trigger_value": 10,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4768,
+            "display_text": 66575,
+            "ir_expected": 0,
+            "levelID": 5503,
+            "npa_alert_code": 42,
+            "supply_key": 3,
+            "supply_level_on": 1,
+            "trigger_value": 5,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4769,
+            "display_text": 68800,
+            "ir_expected": 0,
+            "levelID": 4773,
+            "npa_alert_code": 55,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 2,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 4770,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 41,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 600000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 56,
+        "pagesRemaining": -1,
+        "partNumber": "",
+        "percentFull": 98,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "LEX38F8969",
+        "Statuses": [
+          {
+            "behaviorID": -1,
+            "display_text": 67471,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 3,
+            "supply_key": 0,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          }
+        ],
+        "supplyName": "Black Developer",
+        "text": "Siyah Developer",
+        "textEnum": 73474,
+        "type": 6,
+        "UserConfig": []
+      },
+      "Black Photoconductor": {
+        "capacity": 100,
+        "cartridgeType": 0,
+        "color": "Black",
+        "configResettable": 0,
+        "curlevel": 90,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "",
+        "displayPagesRemaining": 0,
+        "gaugeType": 1,
+        "genuineStatTxt": 72594,
+        "hardwareType": -1,
+        "hasMemoryChip": 1,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 4735,
+            "display_text": 66812,
+            "ir_expected": 0,
+            "levelID": 4740,
+            "npa_alert_code": 49,
+            "supply_key": 2,
+            "supply_level_on": 1,
+            "trigger_value": 30,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4736,
+            "display_text": 66575,
+            "ir_expected": 0,
+            "levelID": 5499,
+            "npa_alert_code": 42,
+            "supply_key": 3,
+            "supply_level_on": 1,
+            "trigger_value": 20,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 4737,
+            "display_text": 68800,
+            "ir_expected": 0,
+            "levelID": 4741,
+            "npa_alert_code": 55,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 10,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 65535,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 41,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 100000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 16,
+        "pagesRemaining": -1,
+        "partNumber": "",
+        "percentFull": 90,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "LEX10F0",
+        "Statuses": [
+          {
+            "behaviorID": -1,
+            "display_text": 67471,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 3,
+            "supply_key": 0,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67472,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 13,
+            "supply_key": 4,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          }
+        ],
+        "supplyName": "Black Photoconductor",
+        "text": "Siyah Fotokondüktör",
+        "textEnum": 69331,
+        "type": 4,
+        "UserConfig": []
+      },
+      "Black Toner": {
+        "capacity": 34000,
+        "cartridgeType": 0,
+        "color": "Black",
+        "configResettable": 0,
+        "curlevel": 80,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "",
+        "displayPagesRemaining": 0,
+        "gaugeType": 1,
+        "genuineStatTxt": 72594,
+        "hardwareType": -1,
+        "hasMemoryChip": 1,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 4703,
+            "display_text": 66812,
+            "ir_expected": 0,
+            "levelID": 4708,
+            "npa_alert_code": 49,
+            "supply_key": 2,
+            "supply_level_on": 1,
+            "trigger_value": 30,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4704,
+            "display_text": 66575,
+            "ir_expected": 0,
+            "levelID": 5495,
+            "npa_alert_code": 4,
+            "supply_key": 3,
+            "supply_level_on": 1,
+            "trigger_value": 15,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 4705,
+            "display_text": 68800,
+            "ir_expected": 1,
+            "levelID": 4709,
+            "npa_alert_code": 55,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 4,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 65535,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 5,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 34000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 1,
+        "pagesRemaining": -1,
+        "partNumber": "",
+        "percentFull": 80,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "LEX03024005013010023015002255",
+        "Statuses": [
+          {
+            "behaviorID": -1,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 41,
+            "supply_key": 7,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67471,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 3,
+            "supply_key": 0,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67472,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 13,
+            "supply_key": 4,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          }
+        ],
+        "supplyName": "Black Toner",
+        "text": "Siyah Kartuş",
+        "textEnum": 67527,
+        "type": 2,
+        "UserConfig": []
+      },
+      "Color Developer Kit (CMY)": {
+        "capacity": 100,
+        "cartridgeType": 0,
+        "color": "Black",
+        "configResettable": 0,
+        "curlevel": 99,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "",
+        "displayPagesRemaining": 0,
+        "gaugeType": 1,
+        "genuineStatTxt": 72594,
+        "hardwareType": -1,
+        "hasMemoryChip": 0,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 4775,
+            "display_text": 66812,
+            "ir_expected": 0,
+            "levelID": 4780,
+            "npa_alert_code": 49,
+            "supply_key": 2,
+            "supply_level_on": 1,
+            "trigger_value": 10,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4776,
+            "display_text": 66575,
+            "ir_expected": 0,
+            "levelID": 5504,
+            "npa_alert_code": 42,
+            "supply_key": 3,
+            "supply_level_on": 1,
+            "trigger_value": 5,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4777,
+            "display_text": 68800,
+            "ir_expected": 0,
+            "levelID": 4781,
+            "npa_alert_code": 55,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 2,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 4778,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 41,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 600000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 58,
+        "pagesRemaining": -1,
+        "partNumber": "",
+        "percentFull": 99,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "LEX3aF8969",
+        "Statuses": [
+          {
+            "behaviorID": -1,
+            "display_text": 67471,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 3,
+            "supply_key": 0,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          }
+        ],
+        "supplyName": "Color Developer Kit (CMY)",
+        "text": "Renk Developer Kiti (CMY)",
+        "textEnum": 75334,
+        "type": 6,
+        "UserConfig": []
+      },
+      "Cyan Photoconductor": {
+        "capacity": 100,
+        "cartridgeType": 0,
+        "color": "Cyan",
+        "configResettable": 0,
+        "curlevel": 90,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "",
+        "displayPagesRemaining": 0,
+        "gaugeType": 1,
+        "genuineStatTxt": 72594,
+        "hardwareType": -1,
+        "hasMemoryChip": 1,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 4743,
+            "display_text": 66812,
+            "ir_expected": 0,
+            "levelID": 4748,
+            "npa_alert_code": 49,
+            "supply_key": 2,
+            "supply_level_on": 1,
+            "trigger_value": 30,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4744,
+            "display_text": 66575,
+            "ir_expected": 0,
+            "levelID": 5500,
+            "npa_alert_code": 42,
+            "supply_key": 3,
+            "supply_level_on": 1,
+            "trigger_value": 20,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 4745,
+            "display_text": 68800,
+            "ir_expected": 0,
+            "levelID": 4749,
+            "npa_alert_code": 55,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 10,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 65535,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 41,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 90000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 17,
+        "pagesRemaining": -1,
+        "partNumber": "",
+        "percentFull": 90,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "LEX11F0",
+        "Statuses": [
+          {
+            "behaviorID": -1,
+            "display_text": 67471,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 3,
+            "supply_key": 0,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67472,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 13,
+            "supply_key": 4,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          }
+        ],
+        "supplyName": "Cyan Photoconductor",
+        "text": "Mavi Fotokondüktör",
+        "textEnum": 69328,
+        "type": 4,
+        "UserConfig": []
+      },
+      "Cyan Toner": {
+        "capacity": 6000,
+        "cartridgeType": 0,
+        "color": "Cyan",
+        "configResettable": 0,
+        "curlevel": 5,
+        "currentStatus": "Düşük",
+        "currentStatusEnum": 4,
+        "currentStatusText": 66575,
+        "dataValid": 1,
+        "deviceId": "",
+        "displayPagesRemaining": 0,
+        "gaugeType": 1,
+        "genuineStatTxt": 72594,
+        "hardwareType": -1,
+        "hasMemoryChip": 1,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 4711,
+            "display_text": 66812,
+            "ir_expected": 0,
+            "levelID": 4716,
+            "npa_alert_code": 49,
+            "supply_key": 2,
+            "supply_level_on": 1,
+            "trigger_value": 30,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4712,
+            "display_text": 66575,
+            "ir_expected": 0,
+            "levelID": 5496,
+            "npa_alert_code": 4,
+            "supply_key": 3,
+            "supply_level_on": 1,
+            "trigger_value": 15,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 4713,
+            "display_text": 68800,
+            "ir_expected": 1,
+            "levelID": 4717,
+            "npa_alert_code": 55,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 4,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 65535,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 5,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 6000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 2,
+        "pagesRemaining": -1,
+        "partNumber": "",
+        "percentFull": 5,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "LEX00022002008013025042002255",
+        "Statuses": [
+          {
+            "behaviorID": -1,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 41,
+            "supply_key": 7,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67471,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 3,
+            "supply_key": 0,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67472,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 13,
+            "supply_key": 4,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          }
+        ],
+        "supplyName": "Cyan Toner",
+        "text": "Mavi Kartuş",
+        "textEnum": 67526,
+        "type": 2,
+        "UserConfig": []
+      },
+      "Fuser Kit": {
+        "capacity": 600000,
+        "cartridgeType": 0,
+        "color": "Black",
+        "configResettable": 0,
+        "curlevel": 98,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "",
+        "displayPagesRemaining": 0,
+        "gaugeType": 1,
+        "genuineStatTxt": 65536,
+        "hardwareType": -1,
+        "hasMemoryChip": 0,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 65535,
+            "display_text": 68800,
+            "ir_expected": 0,
+            "levelID": 65535,
+            "npa_alert_code": 55,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 5,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 65535,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 41,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 600000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 32,
+        "pagesRemaining": -1,
+        "partNumber": "",
+        "percentFull": 98,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "LEX20F0",
+        "Statuses": [],
+        "supplyName": "Fuser Kit",
+        "text": "Isıtıcı Kiti",
+        "textEnum": 75340,
+        "type": 5,
+        "UserConfig": []
+      },
+      "Magenta Photoconductor": {
+        "capacity": 100,
+        "cartridgeType": 0,
+        "color": "Magenta",
+        "configResettable": 0,
+        "curlevel": 90,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "",
+        "displayPagesRemaining": 0,
+        "gaugeType": 1,
+        "genuineStatTxt": 72594,
+        "hardwareType": -1,
+        "hasMemoryChip": 1,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 4751,
+            "display_text": 66812,
+            "ir_expected": 0,
+            "levelID": 4756,
+            "npa_alert_code": 49,
+            "supply_key": 2,
+            "supply_level_on": 1,
+            "trigger_value": 30,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4752,
+            "display_text": 66575,
+            "ir_expected": 0,
+            "levelID": 5501,
+            "npa_alert_code": 42,
+            "supply_key": 3,
+            "supply_level_on": 1,
+            "trigger_value": 20,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 4753,
+            "display_text": 68800,
+            "ir_expected": 0,
+            "levelID": 4757,
+            "npa_alert_code": 55,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 10,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 65535,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 41,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 90000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 18,
+        "pagesRemaining": -1,
+        "partNumber": "",
+        "percentFull": 90,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "LEX12F0",
+        "Statuses": [
+          {
+            "behaviorID": -1,
+            "display_text": 67471,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 3,
+            "supply_key": 0,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67472,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 13,
+            "supply_key": 4,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          }
+        ],
+        "supplyName": "Magenta Photoconductor",
+        "text": "Kırmızı Fotokondüktör",
+        "textEnum": 69329,
+        "type": 4,
+        "UserConfig": []
+      },
+      "Magenta Toner": {
+        "capacity": 6000,
+        "cartridgeType": 0,
+        "color": "Magenta",
+        "configResettable": 0,
+        "curlevel": 16,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "",
+        "displayPagesRemaining": 0,
+        "gaugeType": 1,
+        "genuineStatTxt": 72594,
+        "hardwareType": -1,
+        "hasMemoryChip": 1,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 4727,
+            "display_text": 66812,
+            "ir_expected": 0,
+            "levelID": 4732,
+            "npa_alert_code": 49,
+            "supply_key": 2,
+            "supply_level_on": 1,
+            "trigger_value": 30,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4728,
+            "display_text": 66575,
+            "ir_expected": 0,
+            "levelID": 5498,
+            "npa_alert_code": 4,
+            "supply_key": 3,
+            "supply_level_on": 1,
+            "trigger_value": 15,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 4729,
+            "display_text": 68800,
+            "ir_expected": 1,
+            "levelID": 4733,
+            "npa_alert_code": 55,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 4,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 65535,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 5,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 6000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 3,
+        "pagesRemaining": -1,
+        "partNumber": "",
+        "percentFull": 16,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "LEX02022002007013014026002255",
+        "Statuses": [
+          {
+            "behaviorID": -1,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 41,
+            "supply_key": 7,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67471,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 3,
+            "supply_key": 0,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67472,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 13,
+            "supply_key": 4,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          }
+        ],
+        "supplyName": "Magenta Toner",
+        "text": "Kırmızı Kartuş",
+        "textEnum": 67525,
+        "type": 2,
+        "UserConfig": []
+      },
+      "Toner Bottle": {
+        "capacity": 50000,
+        "cartridgeType": 0,
+        "color": "Black",
+        "configResettable": 0,
+        "curlevel": 100,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "",
+        "displayPagesRemaining": 0,
+        "gaugeType": 0,
+        "genuineStatTxt": 72594,
+        "hardwareType": -1,
+        "hasMemoryChip": 0,
+        "hasValidLevel": 1,
+        "levelOkSide": 2,
+        "Levels": [
+          {
+            "behaviorID": 4793,
+            "display_text": 73035,
+            "ir_expected": 0,
+            "levelID": 4797,
+            "npa_alert_code": 6,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 5,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 65535,
+            "display_text": 66109,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 7,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 50000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 112,
+        "pagesRemaining": -1,
+        "partNumber": "",
+        "percentFull": 100,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "LEX70F8969",
+        "Statuses": [
+          {
+            "behaviorID": -1,
+            "display_text": 67471,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 3,
+            "supply_key": 0,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          }
+        ],
+        "supplyName": "Toner Bottle",
+        "text": "Arık Toner Şişesi",
+        "textEnum": 68245,
+        "type": 6,
+        "UserConfig": []
+      },
+      "Yellow Photoconductor": {
+        "capacity": 100,
+        "cartridgeType": 0,
+        "color": "Yellow",
+        "configResettable": 0,
+        "curlevel": 90,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "",
+        "displayPagesRemaining": 0,
+        "gaugeType": 1,
+        "genuineStatTxt": 72594,
+        "hardwareType": -1,
+        "hasMemoryChip": 1,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 4759,
+            "display_text": 66812,
+            "ir_expected": 0,
+            "levelID": 4764,
+            "npa_alert_code": 49,
+            "supply_key": 2,
+            "supply_level_on": 1,
+            "trigger_value": 30,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4760,
+            "display_text": 66575,
+            "ir_expected": 0,
+            "levelID": 5502,
+            "npa_alert_code": 42,
+            "supply_key": 3,
+            "supply_level_on": 1,
+            "trigger_value": 20,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 4761,
+            "display_text": 68800,
+            "ir_expected": 0,
+            "levelID": 4765,
+            "npa_alert_code": 55,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 10,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 65535,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 41,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 90000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 19,
+        "pagesRemaining": -1,
+        "partNumber": "",
+        "percentFull": 90,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "LEX13F0",
+        "Statuses": [
+          {
+            "behaviorID": -1,
+            "display_text": 67471,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 3,
+            "supply_key": 0,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67472,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 13,
+            "supply_key": 4,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          }
+        ],
+        "supplyName": "Yellow Photoconductor",
+        "text": "Sarı Fotokondüktör",
+        "textEnum": 69330,
+        "type": 4,
+        "UserConfig": []
+      },
+      "Yellow Toner": {
+        "capacity": 6000,
+        "cartridgeType": 0,
+        "color": "Yellow",
+        "configResettable": 0,
+        "curlevel": 12,
+        "currentStatus": "Düşük",
+        "currentStatusEnum": 4,
+        "currentStatusText": 66575,
+        "dataValid": 1,
+        "deviceId": "",
+        "displayPagesRemaining": 0,
+        "gaugeType": 1,
+        "genuineStatTxt": 72594,
+        "hardwareType": -1,
+        "hasMemoryChip": 1,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 4719,
+            "display_text": 66812,
+            "ir_expected": 0,
+            "levelID": 4724,
+            "npa_alert_code": 49,
+            "supply_key": 2,
+            "supply_level_on": 1,
+            "trigger_value": 30,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4720,
+            "display_text": 66575,
+            "ir_expected": 0,
+            "levelID": 5497,
+            "npa_alert_code": 4,
+            "supply_key": 3,
+            "supply_level_on": 1,
+            "trigger_value": 15,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 4721,
+            "display_text": 68800,
+            "ir_expected": 1,
+            "levelID": 4725,
+            "npa_alert_code": 55,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 4,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 65535,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 5,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 6000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 4,
+        "pagesRemaining": -1,
+        "partNumber": "",
+        "percentFull": 12,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "LEX01022002003009020050002255",
+        "Statuses": [
+          {
+            "behaviorID": -1,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 41,
+            "supply_key": 7,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67471,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 3,
+            "supply_key": 0,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67472,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 13,
+            "supply_key": 4,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          }
+        ],
+        "supplyName": "Yellow Toner",
+        "text": "Sarı Kartuş",
+        "textEnum": 67524,
+        "type": 2,
+        "UserConfig": []
+      }
+    }
+  }
+}

@@ -1,0 +1,2201 @@
+{
+  "html": "",
+  "nodes": {
+    "guestSession": 0,
+    "inputs": {
+      "Manual Envelope": {
+        "capacity": 1,
+        "emptySensing": 1,
+        "engineDeviceType": 5,
+        "faceUp": 0,
+        "feedInfo": {
+          "feedType": 2,
+          "trayMediaHeightMax": 1417,
+          "trayMediaHeightMin": 500,
+          "trayMediaWidthMax": 850,
+          "trayMediaWidthMin": 300
+        },
+        "feedOrientation": "short-edge",
+        "inserted": 1,
+        "isSizeSenseEnabled": 0,
+        "isStandard": 1,
+        "levelInfo": {
+          "currentLevel": 0,
+          "earlyWarningLevel": 0,
+          "maxLevel": 100,
+          "minLevel": 0,
+          "numLevels": 2
+        },
+        "name": "Manual Envelope",
+        "npaId": 129,
+        "optionId": "Manual Envelope",
+        "paperSizeNpaId": 61,
+        "paperTypeNpaId": 1875,
+        "revision": "",
+        "size": 88,
+        "sizeSensing": 0,
+        "sizeString": "DL Zarf",
+        "supportedSizes": [
+          {
+            "feedOrientation": "short-edge",
+            "id": 128
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 129
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 130
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 255
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 83
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 84
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 88
+          }
+        ],
+        "supportedTypes": [
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          }
+        ],
+        "text": "Elle Zarf",
+        "textEnum": 67862,
+        "type": 8,
+        "typeString": "Zarf"
+      },
+      "Manual Paper": {
+        "capacity": 1,
+        "emptySensing": 1,
+        "engineDeviceType": 5,
+        "faceUp": 0,
+        "feedInfo": {
+          "feedType": 2,
+          "trayMediaHeightMax": 1417,
+          "trayMediaHeightMin": 500,
+          "trayMediaWidthMax": 850,
+          "trayMediaWidthMin": 300
+        },
+        "feedOrientation": "short-edge",
+        "inserted": 1,
+        "isSizeSenseEnabled": 0,
+        "isStandard": 1,
+        "levelInfo": {
+          "currentLevel": 0,
+          "earlyWarningLevel": 0,
+          "maxLevel": 100,
+          "minLevel": 0,
+          "numLevels": 2
+        },
+        "name": "Manual Paper",
+        "npaId": 128,
+        "optionId": "Manual Paper",
+        "paperSizeNpaId": 51,
+        "paperTypeNpaId": 54,
+        "revision": "",
+        "size": 22,
+        "sizeSensing": 0,
+        "sizeString": "A4",
+        "supportedSizes": [
+          {
+            "feedOrientation": "short-edge",
+            "id": 1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 117
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 22
+          },
+          {
+            "feedOrientation": "long-edge",
+            "id": 23
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 230
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 231
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 232
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 24
+          },
+          {
+            "feedOrientation": "both",
+            "id": 254
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 7
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 9
+          }
+        ],
+        "supportedTypes": [
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          }
+        ],
+        "text": "Elle Kağıt",
+        "textEnum": 67156,
+        "type": 0,
+        "typeString": "Düz Kağıt"
+      },
+      "MP Tray": {
+        "capacity": 100,
+        "emptySensing": 1,
+        "engineDeviceType": 1,
+        "faceUp": 0,
+        "feedInfo": {
+          "feedType": 1,
+          "trayMediaHeightMax": 1417,
+          "trayMediaHeightMin": 500,
+          "trayMediaWidthMax": 850,
+          "trayMediaWidthMin": 300
+        },
+        "feedOrientation": "short-edge",
+        "inserted": 1,
+        "isSizeSenseEnabled": 0,
+        "isStandard": 1,
+        "levelInfo": {
+          "currentLevel": 0,
+          "earlyWarningLevel": 0,
+          "maxLevel": 100,
+          "minLevel": 0,
+          "numLevels": 2
+        },
+        "name": "MP Tray",
+        "npaId": 131,
+        "optionId": "MP Tray",
+        "paperSizeNpaId": 1101,
+        "paperTypeNpaId": 1102,
+        "revision": "",
+        "size": 22,
+        "sizeSensing": 0,
+        "sizeString": "A4",
+        "supportedSizes": [
+          {
+            "feedOrientation": "short-edge",
+            "id": 1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 117
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 128
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 129
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 130
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 22
+          },
+          {
+            "feedOrientation": "long-edge",
+            "id": 23
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 230
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 231
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 232
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 24
+          },
+          {
+            "feedOrientation": "both",
+            "id": 254
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 255
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 7
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 83
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 84
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 88
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 9
+          }
+        ],
+        "supportedTypes": [
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          }
+        ],
+        "text": "Çok Amaçlı Besleyici",
+        "textEnum": 65635,
+        "type": 133,
+        "typeString": "Özel Tür 6"
+      },
+      "Tray 1": {
+        "capacity": 550,
+        "emptySensing": 1,
+        "engineDeviceType": 2,
+        "faceUp": 1,
+        "feedInfo": {
+          "feedType": 1,
+          "trayMediaHeightMax": 1417,
+          "trayMediaHeightMin": 583,
+          "trayMediaWidthMax": 850,
+          "trayMediaWidthMin": 413
+        },
+        "feedOrientation": "short-edge",
+        "inserted": 1,
+        "isSizeSenseEnabled": 0,
+        "isStandard": 1,
+        "levelInfo": {
+          "currentLevel": 100,
+          "earlyWarningLevel": 12,
+          "maxLevel": 100,
+          "minLevel": 0,
+          "numLevels": 2
+        },
+        "name": "Tray 1",
+        "npaId": 1,
+        "optionId": "Tray 1",
+        "paperSizeNpaId": 49,
+        "paperTypeNpaId": 52,
+        "revision": "",
+        "size": 22,
+        "sizeSensing": 1,
+        "sizeString": "A4",
+        "supportedSizes": [
+          {
+            "feedOrientation": "short-edge",
+            "id": 1
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 117
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 128
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 129
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 130
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 22
+          },
+          {
+            "feedOrientation": "long-edge",
+            "id": 23
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 230
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 231
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 232
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 24
+          },
+          {
+            "feedOrientation": "both",
+            "id": 254
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 7
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 83
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 84
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 88
+          },
+          {
+            "feedOrientation": "short-edge",
+            "id": 9
+          }
+        ],
+        "supportedTypes": [
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          },
+          {
+            "id": -1
+          }
+        ],
+        "text": "Tepsi 1",
+        "textEnum": 65633,
+        "type": 0,
+        "typeString": "Düz Kağıt"
+      }
+    },
+    "nodes": {
+      "DeviceFirmwareLevel": {
+        "display": "TextDisplay",
+        "info": "base",
+        "name": "DeviceFirmwareLevel",
+        "text": {
+          "id": -1,
+          "text": "MXTGW.081.234"
+        },
+        "title": {
+          "id": "TXT_FIRMWARE_LEVEL",
+          "textId": 72908,
+          "translated": "Firmware Level"
+        },
+        "type": "DeviceInfo"
+      },
+      "DeviceSerialNumberLxk": {
+        "display": "TextDisplay",
+        "hideshows": [
+          {
+            "condition": "IS_LXK_SERIAL_NUMBER_VALID",
+            "runtime": 1
+          }
+        ],
+        "info": "nvserial",
+        "name": "DeviceSerialNumberLxk",
+        "text": {
+          "id": -1,
+          "text": "7464130024GNC"
+        },
+        "title": {
+          "id": "SM_SERIALNUM_STR",
+          "textId": 71123,
+          "translated": "Serial Number"
+        },
+        "type": "DeviceInfo"
+      },
+      "DeviceSpeed": {
+        "display": "TextDisplay",
+        "info": "speed",
+        "name": "DeviceSpeed",
+        "text": {
+          "id": -1,
+          "text": "Up to 70 pages/minute"
+        },
+        "title": {
+          "id": "TXT_DEVICE_SPEED",
+          "textId": 72907,
+          "translated": "Device Speed"
+        },
+        "type": "DeviceInfo"
+      },
+      "DeviceType": {
+        "display": "TextDisplay",
+        "info": "type",
+        "name": "DeviceType",
+        "text": {
+          "id": 67874,
+          "text": "Mono"
+        },
+        "title": {
+          "id": "TXT_DEVICE_TYPE",
+          "textId": 66242,
+          "translated": "Device Type"
+        },
+        "type": "DeviceInfo"
+      },
+      "FuserSuppliesStatus": {
+        "children": [],
+        "display": "Supplies",
+        "name": "FuserSuppliesStatus",
+        "supplyType": 5,
+        "type": "Node"
+      },
+      "InputsStatus": {
+        "children": [],
+        "display": "InputsStatus",
+        "name": "InputsStatus",
+        "type": "Node"
+      },
+      "InputTrayStatus": {
+        "children": [
+          "InputsStatus"
+        ],
+        "display": "Content",
+        "name": "InputTrayStatus",
+        "showFooter": 0,
+        "type": "InputsContainer"
+      },
+      "IrPanel": {
+        "children": [
+          "Irs"
+        ],
+        "display": "Panel",
+        "name": "IrPanel",
+        "showFooter": 0,
+        "title": {
+          "id": "TXT_MESSAGES",
+          "textId": 72888,
+          "translated": "Messages"
+        },
+        "type": "Container"
+      },
+      "Irs": {
+        "display": "IRList",
+        "name": "Irs",
+        "type": "Node"
+      },
+      "NLRP": {
+        "display": "MessageNode",
+        "message": "",
+        "name": "NLRP",
+        "type": "NLRPMessage"
+      },
+      "OtherSuppliesStatusGauge": {
+        "children": [],
+        "display": "Supplies",
+        "name": "OtherSuppliesStatusGauge",
+        "supplyType": 6,
+        "type": "Node"
+      },
+      "OtherSuppliesStatusLevel": {
+        "children": [],
+        "display": "Supplies",
+        "name": "OtherSuppliesStatusLevel",
+        "supplyType": 6,
+        "type": "Node"
+      },
+      "OutputBins": {
+        "children": [
+          "OutputBinsStatus"
+        ],
+        "display": "Content",
+        "name": "OutputBins",
+        "showFooter": 0,
+        "type": "OutputBinsContainer"
+      },
+      "OutputBinsStatus": {
+        "children": [],
+        "display": "OutputBinsStatus",
+        "name": "OutputBinsStatus",
+        "type": "Node"
+      },
+      "PCDrumStatus": {
+        "children": [],
+        "display": "Supplies",
+        "name": "PCDrumStatus",
+        "supplyType": 4,
+        "type": "Node"
+      },
+      "Printer": {
+        "children": [
+          "DeviceType",
+          "DeviceSpeed",
+          "DeviceFirmwareLevel",
+          "DeviceSerialNumberLxk",
+          "DeviceSerialNumberUnq",
+          "DeviceSerialNumberTrk",
+          "InputTrayStatus",
+          "OutputBins"
+        ],
+        "display": "Content",
+        "name": "Printer",
+        "showFooter": 0,
+        "title": {
+          "id": "TXT_PRINTER_WEB_PAGE_HEADER",
+          "textId": 67399,
+          "translated": "Printer"
+        },
+        "type": "Container"
+      },
+      "Status": {
+        "children": [
+          "IrPanel",
+          "ParkedJobs",
+          "Supplies",
+          "Printer"
+        ],
+        "display": "Page",
+        "name": "Status",
+        "showFooter": 0,
+        "title": {
+          "id": "TXT_STATUS",
+          "textId": 67964,
+          "translated": "Status"
+        },
+        "type": "Container"
+      },
+      "Supplies": {
+        "children": [
+          "NLRP",
+          "TonerSupplies",
+          "PCDrumStatus",
+          "FuserSuppliesStatus",
+          "OtherSuppliesStatusGauge",
+          "OtherSuppliesStatusLevel",
+          "ScanSupplies"
+        ],
+        "display": "Content",
+        "name": "Supplies",
+        "showFooter": 0,
+        "title": {
+          "id": "TXT_SUPPLIES",
+          "textId": 67586,
+          "translated": "Supplies"
+        },
+        "type": "SuppliesContainer"
+      },
+      "TonerSupplies": {
+        "children": [],
+        "display": "Supplies",
+        "name": "TonerSupplies",
+        "supplyType": 2,
+        "type": "Node"
+      }
+    },
+    "outputs": {
+      "Standard Bin": {
+        "binName": "Standard Bin",
+        "capacity": 250,
+        "capacityUnits": "Sheets",
+        "engineDeviceType": 15,
+        "features": {
+          "auxilaryPowerSupplySupport": 0,
+          "binLockable": 0,
+          "earlyWarningLevel": 1,
+          "emptySensing": 0,
+          "levelSensing": 0,
+          "mailboxBin": 0,
+          "outputBinLighting": 0,
+          "OutputFaceDown": 0,
+          "OutputFaceUp": 0,
+          "outputFullDetect": 0,
+          "StaplePrimingBin": 0
+        },
+        "finishingOptions": {
+          "binPunchSupport": 0,
+          "doubleDualStapleSupport": 0,
+          "dualLeftStapleSupport": 0,
+          "dualStapleSupport": 0,
+          "dualTopStapleSupport": 0,
+          "foldingSupport": 0,
+          "holePunchModesSupported": 0,
+          "offsetSupport": 0,
+          "punchAcrossPaperPath": 0,
+          "punchAlongPaperPath": 0,
+          "punchSupport": 0,
+          "saddleStaplingSupport": 0,
+          "staplerHoming": 0,
+          "staplingSupport": 0,
+          "topRightStapleSupport": 0,
+          "zfoldingSupport": 0
+        },
+        "isStandard": 1,
+        "levelInfo": {
+          "currentLevel": 0,
+          "earlyWarningLevel": 90,
+          "maxLevel": 100,
+          "minLevel": 0,
+          "numLevels": 3
+        },
+        "name": "Standard Bin",
+        "npaId": 1,
+        "optionId": "Standard Bin",
+        "outInfo": {
+          "binFoldHeightMax": 0,
+          "binFoldHeightMin": 0,
+          "binFoldWidthMax": 0,
+          "binFoldWidthMin": 0,
+          "binMediaHeightMax": 4251,
+          "binMediaHeightMin": 1500,
+          "binMediaWidthMax": 2550,
+          "binMediaWidthMin": 900,
+          "binOffsetHeightMax": 4251,
+          "binOffsetHeightMin": 1500,
+          "binOffsetWidthMax": 2550,
+          "binOffsetWidthMin": 900,
+          "binStapleHeightMax": 4251,
+          "binStapleHeightMin": 1500,
+          "binStapleWidthMax": 2550,
+          "binStapleWidthMin": 900
+        },
+        "revision": "",
+        "supportedSizes": [
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 1,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 117,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 128,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 129,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 130,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 22,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 23,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 230,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 231,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 232,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 24,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 254,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 255,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 7,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 83,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 84,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 88,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": 0,
+            "3holePunchOrientationSupport": 0,
+            "4holePunchOrientationSupport": 0,
+            "bifold": 0,
+            "doubleDualStapleSupport": 0,
+            "dualLeftStapleSupport": 0,
+            "dualTopStapleSupport": 0,
+            "holePunch": 0,
+            "holePunchOrientationSupport": 0,
+            "npaId": 9,
+            "offset": 0,
+            "orientation": "both",
+            "staple": 0,
+            "stapleOrientationSupport": 0,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          }
+        ],
+        "supportedTypes": [
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 0,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 1,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 128,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 129,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 130,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 131,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 132,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 133,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 14,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 15,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 16,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 17,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 18,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 2,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 20,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 3,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 4,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 5,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 6,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 7,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          },
+          {
+            "2holePunchOrientationSupport": -1,
+            "3holePunchOrientationSupport": -1,
+            "4holePunchOrientationSupport": -1,
+            "bifold": 0,
+            "doubleDualStapleSupport": -1,
+            "dualLeftStapleSupport": -1,
+            "dualTopStapleSupport": -1,
+            "holePunch": 0,
+            "holePunchOrientationSupport": -1,
+            "npaId": 8,
+            "offset": 0,
+            "orientation": "",
+            "staple": 0,
+            "stapleOrientationSupport": -1,
+            "trifold": 0,
+            "zfold": 0,
+            "ztrifold": 0
+          }
+        ],
+        "textEnum": 67062,
+        "userDefinedNameId": 1900
+      }
+    },
+    "rootNode": "Status",
+    "schedules": {},
+    "settings": {},
+    "status": {},
+    "supplies": {
+      "Black Imaging Kit": {
+        "capacity": 120000,
+        "cartridgeType": 0,
+        "color": "Black",
+        "configResettable": 0,
+        "curlevel": 80,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "ba941ea800000000",
+        "displayPagesRemaining": 0,
+        "gaugeType": 1,
+        "genuineStatTxt": 72594,
+        "hardwareType": -1,
+        "hasMemoryChip": 1,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 4734,
+            "display_text": 66811,
+            "ir_expected": 0,
+            "levelID": 4739,
+            "npa_alert_code": 59,
+            "supply_key": 1,
+            "supply_level_on": 0,
+            "trigger_value": 40,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4735,
+            "display_text": 66812,
+            "ir_expected": 0,
+            "levelID": 4740,
+            "npa_alert_code": 49,
+            "supply_key": 2,
+            "supply_level_on": 1,
+            "trigger_value": 10,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4736,
+            "display_text": 66575,
+            "ir_expected": 0,
+            "levelID": 5499,
+            "npa_alert_code": 42,
+            "supply_key": 3,
+            "supply_level_on": 1,
+            "trigger_value": 5,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 4737,
+            "display_text": 68800,
+            "ir_expected": 0,
+            "levelID": 4741,
+            "npa_alert_code": 55,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4738,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 41,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 150000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 57,
+        "pagesRemaining": 122900,
+        "partNumber": "   25G0001",
+        "percentFull": 80,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "CAD21203277A",
+        "shipsWithEngine": 1,
+        "showInfo": 0,
+        "Statuses": [
+          {
+            "behaviorID": -1,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 41,
+            "supply_key": 7,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67513,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 44,
+            "supply_key": 5,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67513,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 3,
+            "supply_key": 0,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67513,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 12,
+            "supply_key": 2,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67472,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 13,
+            "supply_key": 4,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 74761,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 67,
+            "supply_key": 3,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 73421,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 57,
+            "supply_key": 6,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 68794,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 83,
+            "supply_key": 12,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          }
+        ],
+        "supplyName": "Black Imaging Kit",
+        "text": "Görüntlme Üni",
+        "textEnum": 65549,
+        "trademark": "",
+        "type": 4,
+        "UserConfig": []
+      },
+      "Black Toner": {
+        "capacity": 100,
+        "cartridgeType": 0,
+        "color": "Black",
+        "configResettable": 0,
+        "curlevel": 64,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "e29316d000000000",
+        "displayPagesRemaining": 0,
+        "gaugeType": 1,
+        "genuineStatTxt": 72594,
+        "hardwareType": -1,
+        "hasMemoryChip": 1,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 4702,
+            "display_text": 66811,
+            "ir_expected": 0,
+            "levelID": 4707,
+            "npa_alert_code": 59,
+            "supply_key": 1,
+            "supply_level_on": 0,
+            "trigger_value": 45,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4703,
+            "display_text": 66812,
+            "ir_expected": 0,
+            "levelID": 4708,
+            "npa_alert_code": 49,
+            "supply_key": 2,
+            "supply_level_on": 1,
+            "trigger_value": 18,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4704,
+            "display_text": 66575,
+            "ir_expected": 0,
+            "levelID": 5495,
+            "npa_alert_code": 4,
+            "supply_key": 3,
+            "supply_level_on": 1,
+            "trigger_value": 16,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 4705,
+            "display_text": 68800,
+            "ir_expected": 0,
+            "levelID": 4709,
+            "npa_alert_code": 55,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4706,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 5,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 55000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 1,
+        "pagesRemaining": 23100,
+        "partNumber": "   58D5U0E",
+        "percentFull": 64,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "CAP2401227F2",
+        "shipsWithEngine": 0,
+        "showInfo": 0,
+        "Statuses": [
+          {
+            "behaviorID": -1,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 41,
+            "supply_key": 7,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67513,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 44,
+            "supply_key": 5,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67513,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 3,
+            "supply_key": 0,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67513,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 12,
+            "supply_key": 2,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67474,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 67,
+            "supply_key": 3,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67472,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 13,
+            "supply_key": 4,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67536,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 57,
+            "supply_key": 6,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 66789,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 46,
+            "supply_key": 13,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 68794,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 83,
+            "supply_key": 12,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          }
+        ],
+        "supplyName": "Black Toner",
+        "text": "Siyah Kartuş",
+        "textEnum": 67527,
+        "trademark": "",
+        "type": 2,
+        "UserConfig": []
+      },
+      "Maintenance Kit": {
+        "capacity": 300000,
+        "cartridgeType": 0,
+        "color": "Black",
+        "configResettable": 0,
+        "curlevel": 86,
+        "currentStatus": "Tamam",
+        "currentStatusEnum": 0,
+        "currentStatusText": 67896,
+        "dataValid": 1,
+        "deviceId": "bee637a000000000",
+        "displayPagesRemaining": 0,
+        "gaugeType": 1,
+        "genuineStatTxt": 72594,
+        "hardwareType": -1,
+        "hasMemoryChip": 1,
+        "hasValidLevel": 1,
+        "levelOkSide": 0,
+        "Levels": [
+          {
+            "behaviorID": 65535,
+            "display_text": 66811,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 59,
+            "supply_key": 1,
+            "supply_level_on": 0,
+            "trigger_value": 20,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 4775,
+            "display_text": 66812,
+            "ir_expected": 0,
+            "levelID": 4780,
+            "npa_alert_code": 49,
+            "supply_key": 2,
+            "supply_level_on": 1,
+            "trigger_value": 10,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4776,
+            "display_text": 66575,
+            "ir_expected": 0,
+            "levelID": 5504,
+            "npa_alert_code": 42,
+            "supply_key": 3,
+            "supply_level_on": 1,
+            "trigger_value": 5,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": 4777,
+            "display_text": 68800,
+            "ir_expected": 0,
+            "levelID": 65535,
+            "npa_alert_code": 55,
+            "supply_key": 4,
+            "supply_level_on": 1,
+            "trigger_value": 1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": 4778,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": 65535,
+            "npa_alert_code": 5,
+            "supply_key": 6,
+            "supply_level_on": 1,
+            "trigger_value": 0,
+            "warning_expected": 1
+          }
+        ],
+        "lifetimeComponent": 0,
+        "maxCapacityPages": 225000,
+        "maxLevel": 100,
+        "mfgNumber": "",
+        "minLevel": 0,
+        "nonGenuineStr": "",
+        "npaId": 38,
+        "pagesRemaining": 197900,
+        "partNumber": "   50G4135",
+        "percentFull": 86,
+        "prebate": 1,
+        "revisionLevel": 0,
+        "serialNumber": "118307360000",
+        "shipsWithEngine": 1,
+        "showInfo": 0,
+        "Statuses": [
+          {
+            "behaviorID": -1,
+            "display_text": 67360,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 41,
+            "supply_key": 7,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 1
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67513,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 44,
+            "supply_key": 5,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67471,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 3,
+            "supply_key": 0,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 0,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 12,
+            "supply_key": 2,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67474,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 67,
+            "supply_key": 3,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 67472,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 13,
+            "supply_key": 4,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 0,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 57,
+            "supply_key": 6,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          },
+          {
+            "behaviorID": -1,
+            "display_text": 75655,
+            "ir_expected": 1,
+            "levelID": -1,
+            "npa_alert_code": 83,
+            "supply_key": 12,
+            "supply_level_on": 0,
+            "trigger_value": -1,
+            "warning_expected": 0
+          }
+        ],
+        "supplyName": "Maintenance Kit",
+        "text": "Bakım Kiti",
+        "textEnum": 67388,
+        "trademark": "",
+        "type": 5,
+        "UserConfig": []
+      }
+    }
+  }
+}
