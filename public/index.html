@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yazıcı Toner Takip Sistemi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js"></script>
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1><i class="fas fa-print"></i> Yazıcı Takip Sistemi</h1>
+        <div class="controls">
+          <button class="btn-refresh" onclick="refreshData()">
+            <i class="fas fa-sync-alt"></i> Yenile
+          </button>
+          <button
+            class="btn-notifications"
+            onclick="toggleNotifications()"
+            id="notificationBtn"
+          >
+            <i class="fas fa-bell"></i> Bildirimler
+          </button>
+        </div>
+      </header>
+
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="Yazıcı ara..."
+          onkeyup="searchPrinters()"
+        />
+        <button class="btn-primary" onclick="focusSearch()">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+
+      <div class="add-printer-form">
+        <input
+          type="text"
+          id="printerIp"
+          class="add-printer-input"
+          placeholder="Yazıcı IP adresi (örn: 192.168.1.100)"
+          required
+        />
+        <input
+          type="text"
+          id="printerName"
+          class="add-printer-input"
+          placeholder="Yazıcı Adı (örn: Müdürlük)"
+          required
+        />
+        <button class="btn-primary" onclick="addPrinter()">
+          <i class="fas fa-plus"></i> Yazıcı Ekle
+        </button>
+      </div>
+
+      <div class="stats-container sticky-table" id="statsContainer"></div>
+
+      <!-- İSTATiSTİK TABLOSU -->
+      <table id="printerTable">
+        <thead class="sticky-thead">
+          <tr>
+            <th onclick="sortTable(0)">Konum</th>
+            <th onclick="sortTable(1)">IP Adresi</th>
+            <th onclick="sortTable(2)">Son Görülme</th>
+            <th onclick="sortTable(3)" class="th-black color-width">Siyah</th>
+            <th onclick="sortTable(4)" class="th-cyan color-width">Mavi</th>
+            <th onclick="sortTable(5)" class="th-magenta color-width">
+              Kırmızı
+            </th>
+            <th onclick="sortTable(6)" class="th-yellow color-width">Sarı</th>
+            <th onclick="sortTable(7)">Seri No</th>
+            <th>İşlemler</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Veriler buraya gelecek -->
+        </tbody>
+      </table>
+
+      <div id="detailsModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="modalTitle">Detaylar</h2>
+            <span class="close">&times;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+  </body>
+</html>

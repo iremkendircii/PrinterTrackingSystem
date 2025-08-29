@@ -1,0 +1,550 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --success-color: #27ae60;
+  --warning-color: #f39c12;
+  --danger-color: #e74c3c;
+  --light-color: #ecf0f1;
+  --dark-color: #2c3e50;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px 0;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.container {
+  max-width: 98%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+h1 {
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1a252f;
+}
+
+.btn-success {
+  background-color: var(--success-color);
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #219653;
+}
+
+.btn-refresh {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.btn-refresh:hover {
+  background-color: #2980b9;
+}
+
+.btn-notifications {
+  background-color: var(--success-color);
+  color: white;
+}
+
+.btn-notifications:hover {
+  background-color: #219653;
+}
+
+.btn-notifications-off {
+  background-color: #95a5a6 !important;
+}
+
+.btn-notifications-off:hover {
+  background-color: #7f8c8d !important;
+}
+
+.status-badge {
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+.status-normal {
+  background-color: var(--success-color);
+}
+
+.status-düşük {
+  background-color: var(--warning-color);
+}
+
+.status-kritik {
+  background-color: var(--danger-color);
+}
+
+.status-unknown {
+  background-color: #95a5a6;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.sticky-table {
+  max-height: calc(100vh - 250px);
+  position: relative;
+  overflow: auto;
+  display: block;
+}
+
+th,
+td {
+  padding: 5px 5px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  vertical-align: middle;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+th {
+  background-color: var(--primary-color);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+.sticky-thead {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Diğer elementlerin üstünde görünmesi için */
+}
+
+.sticky-thead th {
+  position: sticky;
+  top: 0;
+  background-color: var(--primary-color);
+  color: white;
+  z-index: 10;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+tr:hover {
+  background-color: rgba(52, 152, 219, 0.1);
+}
+
+.toner-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.toner-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  font-size: 13px;
+}
+
+.toner-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.black {
+  background-color: #000;
+}
+.cyan {
+  background-color: #00bcd4;
+}
+.magenta {
+  background-color: #e91e63;
+}
+.yellow {
+  background-color: #ffeb3b;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 40px;
+}
+
+.action-btn {
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+}
+
+.action-btn:hover {
+  background-color: #d6eaf8;
+}
+
+.delete-btn {
+  background-color: var(--danger-color) !important;
+  color: white !important;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b !important;
+}
+
+/* İşlemler sütunu hizalama düzeltmesi */
+#printerTable td:last-child {
+  vertical-align: middle;
+  padding: 12px 15px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: white;
+  margin: 5% auto;
+  padding: 25px;
+  border-radius: 8px;
+  width: 60%;
+  max-width: 700px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  animation: modalopen 0.3s;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.modal-title {
+  margin: 0;
+  color: var(--primary-color);
+}
+
+.close {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #333;
+}
+
+.modal-body {
+  margin-bottom: 20px;
+}
+
+.detail-item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.detail-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.detail-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--dark-color);
+}
+
+.progress-container {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.progress-bar {
+  height: 20px;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.add-printer-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+#printerTable th {
+  cursor: pointer;
+  position: relative;
+  padding-right: 20px;
+}
+
+#printerTable th.sort-asc::after {
+  content: "↑";
+  position: absolute;
+  right: 8px;
+}
+
+#printerTable th.sort-desc::after {
+  content: "↓";
+  position: absolute;
+  right: 8px;
+}
+.add-printer-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.stats-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  flex: 1;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: var(--primary-color);
+}
+
+.stat-label {
+  color: #7f8c8d;
+  font-size: 14px;
+}
+
+.critical-card {
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.critical-card:hover {
+  background-color: #fff3cd;
+  border-color: var(--warning-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.critical-card.active {
+  background-color: #f8d7da;
+  border-color: var(--danger-color);
+}
+
+.offline-card {
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.offline-card:hover {
+  background-color: #f8f9fa;
+  border-color: #95a5a6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.offline-card.active {
+  background-color: #e9ecef;
+  border-color: #6c757d;
+}
+
+.ip-link {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.ip-link:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    width: 90%;
+    margin: 10% auto;
+  }
+
+  .stats-container {
+    flex-direction: column;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+
+  .toner-info {
+    flex-direction: column;
+  }
+}
+
+/* Toner sütunları için arkaplan renkleri */
+.toner-black {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.toner-cyan {
+  background-color: rgba(0, 188, 212, 0.1);
+}
+.toner-magenta {
+  background-color: rgba(233, 30, 99, 0.1);
+}
+.toner-yellow {
+  background-color: rgba(255, 235, 59, 0.1);
+}
+
+/* Başlık renkleri */
+.color-width {
+  width: 100px;
+}
+
+.th-black {
+  background-color: #000000 !important;
+}
+.th-cyan {
+  background-color: #00bcd4 !important;
+}
+.th-magenta {
+  background-color: #e91e63 !important;
+}
+.th-yellow {
+  background-color: #ffeb3b !important;
+  color: #000 !important; /* Sarı başlıkta yazı rengi siyah */
+}
+
+/* Hover efektleri */
+tr:hover .toner-black {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+tr:hover .toner-cyan {
+  background-color: rgba(0, 188, 212, 0.2);
+}
+tr:hover .toner-magenta {
+  background-color: rgba(233, 30, 99, 0.2);
+}
+tr:hover .toner-yellow {
+  background-color: rgba(255, 235, 59, 0.2);
+}
+
+/* Offline yazıcı satırları için kırmızı arka plan */
+tr.offline-row {
+  background-color: rgba(231, 76, 60, 0.1) !important;
+}
+
+tr.offline-row:hover {
+  background-color: rgba(231, 76, 60, 0.2) !important;
+}
+
+/* Offline yazıcı satırlarındaki hücreler için kırmızı kenarlık */
+tr.offline-row td {
+  border-left: 3px solid #e74c3c;
+}
+
