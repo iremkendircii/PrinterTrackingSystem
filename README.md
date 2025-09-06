@@ -1,102 +1,115 @@
-# Yazıcı Toner Takip Sistemi
+Printer Toner Tracking System
 
-Bu proje, ağ yazıcılarının toner seviyelerini ve durumlarını takip etmek için geliştirilmiş bir web uygulamasıdır.
+This project is a web application developed to track the toner levels and statuses of network printers.
 
-## 🚀 Özellikler
+🚀 Features
+✅ Completed Features
 
-### ✅ Tamamlanan Özellikler
+Add Printer
 
-1. **Yazıcı Ekleme**: 
-   - "Yazıcı Ekle" butonuna basınca girilen IP adresi `ips.txt` dosyasına eklenir
-   - Yeni yazıcı eklendiğinde otomatik olarak veri çekilir
+When clicking the "Add Printer" button, the entered IP address is appended to ips.txt
 
-2. **Manuel Yenileme**: 
-   - "Yenile" butonuna basınca `downloadAll.js` ve `generateSummary.js` çalışır
-   - Tüm yazıcılardan güncel veriler çekilir
+Automatically validates new printers when added
 
-3. **Otomatik Yenileme**: 
-   - Backend'de her 5 dakikada bir otomatik yenileme
-   - Kritik toner seviyeleri için gerçek zamanlı bildirimler
+Manual Refresh
 
-4. **Gerçek Zamanlı Güncelleme**: 
-   - Socket.io ile frontend'de "Son Görülme" zamanı güncellenir
-   - Format: "GG/AA/YYYY SS:DD"
+Clicking the "Refresh" button runs downloadAll.js and generateSummary.js
 
-5. **Bildirim Sistemi**: 
-   - Kritik toner seviyeleri için tarayıcı bildirimleri
-   - Toast mesajları ile kullanıcı geri bildirimi
+Retrieves the latest data from all printers
 
-## 📁 Dosya Yapısı
+Automatic Refresh
 
-```
+Backend automatically refreshes every 5 minutes
+
+Real-time notifications for critical toner levels
+
+Real-Time Update
+
+Frontend updates "Last Seen" time with Socket.io
+
+Format: DD/MM/YYYY HH:MM
+
+Notification System
+
+Browser notifications for critical toner levels
+
+Toast messages for user feedback
+
+📁 File Structure
 PRINTER TRACKING SYSTEM/
-├── server.js             # Sunucu başlatma dosyası
-├── ips.txt               # Yazıcı IP adresleri ve isimleri
-├── package.json          # Proje bağımlılıkları
-├── package-lock.json     # Bağımlılık kilit dosyası
-├── README.md             # Proje dokümantasyonu
-├── summary.csv           # Yazıcı verilerinin özet çıktısı
-├── json_outputs/         # Yazıcı verilerinin JSON dosyaları
-├── public/               # Frontend dosyaları
-│ ├── css/
-│ │ └── style.css         # Stil dosyası
-│ ├── js/
-│ │ └── app.js            # Frontend JS dosyası
-│ ├── index.html          # Ana frontend sayfası
-│ └── login.html          # Giriş sayfası
+├── server.js             # Server startup file
+├── ips.txt               # Printer IP addresses and names
+├── package.json          # Project dependencies
+├── package-lock.json     # Dependency lock file
+├── README.md             # Project documentation
+├── summary.csv           # Summary of printer data
+├── json_outputs/         # JSON data for each printer
+├── public/               # Frontend files
+│   ├── css/
+│   │   └── style.css     # Stylesheet
+│   ├── js/
+│   │   └── app.js        # Frontend JS file
+│   ├── index.html        # Main frontend page
+│   └── login.html        # Login page
 ├── routes/
-│ └── printerRoutes.js    # Yazıcı API route dosyası
+│   └── printerRoutes.js  # Printer API routes
 └── utils/
-└── downloadAll.js        # Tüm IP'lerden veri çekme
-└──generateSummary.js     # CSV ve özet oluşturma
-```
+    ├── downloadAll.js    # Fetch data from all IPs
+    └── generateSummary.js # Generate CSV summary
 
-## 🛠️ Kurulum
+🛠️ Installation
 
-1. **Bağımlılıkları yükleyin:**
-   ```bash
-   npm install
-   ```
+Install dependencies:
 
-2. **Uygulamayı başlatın:**
-   ```bash
-   node server.js 
-   ```
+npm install
 
-3. **Tarayıcıda açın:**
-   ```
-   http://localhost:3000
-   ```
 
-## 🔧 Kullanım
+Start the application:
 
-### Yazıcı Ekleme
-1. IP adresi ve yazıcı adını girin
-2. "Yazıcı Ekle" butonuna basın
-3. Yazıcı otomatik olarak `ips.txt`'ye eklenir ve veri çekilir
+node server.js
 
-### Manuel Yenileme
-1. "Yenile" butonuna basın
-2. Tüm yazıcılardan güncel veriler çekilir
-3. Frontend otomatik olarak güncellenir
 
-### Otomatik Yenileme
-- Her 5 dakikada bir otomatik olarak çalışır
-- Kritik toner seviyeleri tespit edildiğinde bildirim gönderir
+Open in browser:
 
-## 📊 Veri Formatları
+http://localhost:3000
 
-### ips.txt Formatı
-```
-192.168.1.100 - Yazıcı Adı
-192.168.1.101 - Başka Yazıcı
-```
+🔧 Usage
 
-### JSON Çıktı Formatı
-```json
+Add Printer
+
+Enter the IP address and printer name
+
+Click "Add Printer"
+
+Printer is automatically added to ips.txt and data is retrieved
+
+Manual Refresh
+
+Click "Refresh"
+
+Retrieves updated data from all printers
+
+Frontend updates automatically
+
+Automatic Refresh
+
+Runs every 5 minutes
+
+Notifies about changes in critical toner levels
+
+📊 Data Formats
+
+ips.txt Format
+
+192.168.1.100 - Printer Name
+192.168.1.101 - Another Printer
+
+
+JSON Output Format
+
 {
   "ip": "192.168.1.100",
-  "unit": "Yazıcı Adı",
+  "unit": "Printer Name",
   "lastModified": "2024-01-01T12:00:00.000Z",
   "black": 85,
   "cyan": 70,
@@ -104,39 +117,53 @@ PRINTER TRACKING SYSTEM/
   "yellow": 45,
   "serialNo": "ABC123456"
 }
-```
 
-## 🔔 Bildirimler
+🔔 Notifications
 
-- **Kritik Toner**: %2'nin altındaki toner seviyeleri
-- **Offline Yazıcılar**: Veri çekilemeyen yazıcılar (30 dk)
-- **Otomatik Yenileme**: Her 5 dakikada bir çalışır
+Critical Toner: Toner levels below 2%
 
-## 🎯 Teknolojiler
+Offline Printers: Printers with no data for 30 minutes
 
-- **Backend**: Node.js, Express.js
-- **Frontend**: HTML, CSS, JavaScript
-- **Gerçek Zamanlı**: Socket.io
-- **HTTP İstekleri**: Axios
-- **Dosya İşlemleri**: Node.js fs modülü
+Automatic Refresh: Every 5 minutes
 
-## 📝 Notlar
+🎯 Technologies
 
-- Yazıcıların web arayüzü açık olmalıdır
-- IP adresleri doğru formatta olmalıdır (xxx.xxx.xxx.xxx)
-- Ağ bağlantısı gereklidir
-- Kritik toner seviyeleri %2'nin altında bildirim gönderir
+Backend: Node.js, Express.js
 
-## 🚨 Sorun Giderme
+Frontend: HTML, CSS, JavaScript
 
-1. **Yazıcıya erişim hatası**: Yazıcının açık olduğundan emin olun
-2. **IP adresi bulunamadı**: IP adresinin doğru olduğunu kontrol edin
-3. **Bağlantı reddedildi**: Yazıcının web arayüzünün açık olduğunu kontrol edin
+Real-Time: Socket.io
 
-## 📞 Destek
+HTTP Requests: Axios
 
-Herhangi bir sorun yaşarsanız, lütfen aşağıdaki bilgileri kontrol edin:
-- Yazıcı IP adresinin doğruluğu
-- Ağ bağlantısı
-- Yazıcının açık olması
-- Web arayüzünün erişilebilir olması
+File Operations: Node.js fs module
+
+📝 Notes
+
+Printers’ web interfaces must be enabled
+
+IP addresses must follow the correct format (xxx.xxx.xxx.xxx)
+
+Network access is required
+
+Critical toner threshold is set at 2%
+
+🚨 Troubleshooting
+
+Printer access error: Make sure the printer is powered on
+
+Invalid IP address: Verify the IP format is correct
+
+Connection refused: Ensure the printer’s web interface is accessible
+
+📞 Support
+
+If you encounter issues, please check:
+
+The printer IP address
+
+Network connectivity
+
+Printer power status
+
+Accessibility of the printer’s web interface
